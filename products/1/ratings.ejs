@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Product 1</title>
+    <%- partial("../_head") %>
+  </head>
+  <body>
+    <a href="/">Back</a>
+    <h1>Product 1</h1>
+
+    <div id="product-variations-container">
+      <ul class="product-variations-links">
+        <li><a href="index.html">Black</a></li>
+        <li><a href="white.html">White</a></li>
+        <li><a href="red.html">Red</a></li>
+      </ul>
+      <div>
+        Black
+      </div>
+    </div>
+
+    <%- partial("../_add-to-shopping-cart") %>
+
+    <div class="tabs" id="product-info-tabs-container">
+      <ul class="tab-links">
+        <li><a href="index.html">Related</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="ratings.html">Ratings</a></li>
+      </ul>
+      <div>
+        Ratings
+      </div>
+    </div>
+
+    <%- partial("../_shopping-cart") %>
+
+    <%- partial("../_before-body-scripts") %>
+  </body>
+</html>

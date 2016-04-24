@@ -12,9 +12,13 @@
   <body>
     <h1>Simple Web Shop</h1>
 
-    <a href="/products/1/">Product 1</a>
+    <a href="products/1/">Product 1</a>
 
-    <h-include src="/shopping-cart"></h-include>
+    <h-include src="http://static-web-shop-example.herokuapp.com/shopping-cart">
+  <div class="shopping-cart">
+    <a href="/shopping-cart-full">See shopping cart</a>
+  </div>
+</h-include>
 
     <script src="/javascripts/vendor/jquery-2.2.0.min.js"></script>
     <script src="/javascripts/vendor/jquery-pjax-1.9.6.js"></script>

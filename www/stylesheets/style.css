@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#product-variations-container, #product-info-tabs-container {
+  width: 300px;
+  background-color: #eee;
+  padding: 10px;
+}
+
+form button {
+  margin: 20px 0;
+}
+
+.shopping-cart {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+
+h-include:not(.include_200) {
+  display: none;
+}
