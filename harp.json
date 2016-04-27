@@ -1,0 +1,5 @@
+{
+  "globals": {
+    "SHOPPING_CART_HOST": "http://web-shop-shopping-cart.herokuapp.com"
+  }
+}
