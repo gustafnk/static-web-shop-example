@@ -1,0 +1,21 @@
+{
+  "name": "static-web-shop-example",
+  "version": "0.0.1",
+  "description": "An example of a static web shop, using a dymanic shopping cart",
+  "scripts": {
+    "start": "harp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustafnk/static-web-shop-example.git"
+  },
+  "author": "Gustaf Nilsson Kotte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustafnk/static-web-shop-example/issues"
+  },
+  "homepage": "https://github.com/gustafnk/static-web-shop-example#readme",
+  "dependencies": {
+    "harp": "^0.20.3"
+  }
+}

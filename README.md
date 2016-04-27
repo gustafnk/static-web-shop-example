@@ -8,13 +8,19 @@ Techniques used:
 
 - [jquery-pjax](https://github.com/defunkt/jquery-pjax)
 - [h-include](https://github.com/gustafnk/h-include)
-- h-includes refresher (currently only in this repo)
+- h-include refresher (currently only in this repo)
 
-## To install/run
+## To run
+
+`npm install`
+
+`npm start`
+
+## To build
 
 `npm install -g harp`
 
-`harp server`
+`harp compile`
 
 ## Configuration
 
