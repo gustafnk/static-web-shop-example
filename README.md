@@ -18,9 +18,9 @@ Techniques used:
 
 ## To build
 
-`npm install -g harp`
+`npm install`
 
-`harp compile`
+`npm run compile`
 
 ## Configuration
 
