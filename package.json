@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "An example of a static web shop, using a dymanic shopping cart",
   "scripts": {
-    "start": "harp server"
+    "start": "harp server",
+    "compile": "harp compile"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "homepage": "https://github.com/gustafnk/static-web-shop-example#readme",
   "dependencies": {
     "harp": "^0.20.3"
+  },
+  "engines": {
+    "node": "<6"
   }
 }
