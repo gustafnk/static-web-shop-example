@@ -18,5 +18,8 @@
   "homepage": "https://github.com/gustafnk/static-web-shop-example#readme",
   "dependencies": {
     "harp": "^0.20.3"
+  },
+  "engines": {
+    "node": "<6"
   }
 }
