@@ -10,11 +10,7 @@
     <h1>Product 1</h1>
 
     <div id="product-variations-container">
-      <ul class="product-variations-links">
-        <li><a href="index.html">Black</a></li>
-        <li><a href="white.html">White</a></li>
-        <li><a href="red.html">Red</a></li>
-      </ul>
+      <%- partial("../_product-variation-nav", {id: "1", current: "Red"}) %> 
       <div>
         Red
       </div>

@@ -1,5 +1,5 @@
 /*
-hinclude.js -- HTML Includes (version 0.9.5)
+hinclude.js -- HTML Includes (version 0.0.1)
 
 Copyright (c) 2005-2012 Mark Nottingham <mnot@mnot.net>
 

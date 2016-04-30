@@ -1,5 +1,14 @@
 {
   "globals": {
-    "SHOPPING_CART_HOST": "http://web-shop-shopping-cart.herokuapp.com"
+    "SHOPPING_CART_HOST": "http://web-shop-shopping-cart.herokuapp.com",
+    "products": {
+      "1": {
+        "variations": [
+          {"name":"Black", "url":"index.html"},
+          {"name":"White", "url":"white.html"},
+          {"name":"Red", "url":"red.html"}
+        ]
+      }
+    }
   }
 }

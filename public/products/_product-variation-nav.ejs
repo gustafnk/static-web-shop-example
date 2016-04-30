@@ -1,0 +1,11 @@
+<ul class="product-variations-links">
+<% products[id].variations.forEach(function(variation){ %>
+  <li>
+    <% if (variation.name !== current) { %>
+      <a href="<%= variation.url %>"><%= variation.name %></a>
+    <% } else { %>
+      <%= variation.name %>
+    <% } %>
+  </li>
+<% }) %>
+</ul>
