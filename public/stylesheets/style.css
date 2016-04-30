@@ -26,3 +26,7 @@ form button {
 h-include:not(.include_200) {
   display: none;
 }
+
+.no-script h-include:not(.include_200) {
+  display: block;
+}
