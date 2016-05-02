@@ -1,0 +1,11 @@
+<ul class="tab-links">
+<% products[id].infos.forEach(function(info){ %>
+  <li>
+    <% if (info.name !== current) { %>
+      <a href="<%= info.url %>"><%= info.name %></a>
+    <% } else { %>
+      <%= info.name %>
+    <% } %>
+  </li>
+<% }) %>
+</ul>

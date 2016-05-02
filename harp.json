@@ -7,6 +7,11 @@
           {"name":"Black", "url":"index.html"},
           {"name":"White", "url":"white.html"},
           {"name":"Red", "url":"red.html"}
+        ],
+        "infos": [
+          {"name":"Related", "url":"index.html"},
+          {"name":"Reviews", "url":"reviews.html"},
+          {"name":"Ratings", "url":"ratings.html"}
         ]
       }
     }
