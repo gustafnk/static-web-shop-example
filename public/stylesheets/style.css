@@ -31,14 +31,6 @@ form button {
   left: 300px;
 }
 
-h-include:not(.include_200) {
-  display: none;
-}
-
-.no-script h-include:not(.include_200) {
-  display: block;
-}
-
 /* colors */
 
 .red {

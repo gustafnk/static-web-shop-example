@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>title</title>
+    <style>
+    h-include:not(.include_200) {
+      display: none;
+    }
+
+    .no-script, h-include(.include_0) {
+      display: block;
+    }
+    </style>
     <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
 
     <%- partial("products/_head") %>

@@ -18,7 +18,7 @@ $(function(){
 
     $.ajax({
       url: $form.attr('action'),
-      type: 'POST',
+      type: $form.attr('method'),
       data: $form.serialize(),
       headers: {'X-Requested-With': 'XMLHttpRequest'},
       success: function(response) {
