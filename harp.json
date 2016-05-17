@@ -4,7 +4,7 @@
     "products": {
       "1": {
         "variations": [
-          {"name":"Black", "url":"index.html"},
+          {"name":"Grey", "url":"index.html"},
           {"name":"White", "url":"white.html"},
           {"name":"Red", "url":"red.html"}
         ],

@@ -10,22 +10,22 @@
     <h1>Product 1</h1>
 
     <div id="product-variations-container">
-      <%- partial("../_product-variation-nav", {id: "1", current: "White"}) %> 
-      <div>
-        White
+      <div class="white">
+        <%- partial("../_product-variation-nav", {id: "1", current: "White"}) %> 
+        <div>
+          Buy white – all colors in the spectrum
+        </div>
       </div>
     </div>
 
     <%- partial("../_add-to-shopping-cart") %>
 
     <div class="tabs" id="product-info-tabs-container">
-      <ul class="tab-links">
-        <li><a href="index.html">Related</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="ratings.html">Ratings</a></li>
-      </ul>
-      <div>
-        Related
+      <div class="blue">
+        <%- partial("../_product-info-nav", {id: "1", current: "Related"}) %>
+        <div>
+          Coming soon to a pjax container near you
+        </div>
       </div>
     </div>
 

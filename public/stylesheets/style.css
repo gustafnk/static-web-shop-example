@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -7,10 +14,11 @@ a {
   color: #00B7FF;
 }
 
-#product-variations-container, #product-info-tabs-container {
-  width: 300px;
-  background-color: #eee;
+#product-variations-container > div, #product-info-tabs-container > div {
+  width: 350px;
   padding: 10px;
+  border-color: #333;
+  border-style: solid;
 }
 
 form button {
@@ -29,4 +37,30 @@ h-include:not(.include_200) {
 
 .no-script h-include:not(.include_200) {
   display: block;
+}
+
+/* colors */
+
+.red {
+  background-color: #e55;
+}
+
+.grey {
+  background-color: #ccc;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.green {
+  background-color: #5e5;
+}
+
+.blue {
+  background-color: #55e;
+}
+
+.yellow {
+  background-color: #5ee;
 }
