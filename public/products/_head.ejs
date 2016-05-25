@@ -4,6 +4,17 @@
   <!-- https://gist.github.com/egeorjon/6755681 -->
   document.documentElement.className = document.documentElement.className.replace( /(?:^|\s)no-script(?!\S)/g , '' )
 </script>
+
+<style>
+  h-include:not(.include_200) {
+    display: none;
+  }
+
+  .no-script, h-include(.include_0) {
+    display: block;
+  }
+</style>
+
 <script src="/javascripts/vendor/document-register-element.js"></script>
 <script src="/javascripts/vendor/hinclude.js" type="text/javascript"></script>
 <script src="/javascripts/vendor/includes-refresher.js" type="text/javascript"></script>
