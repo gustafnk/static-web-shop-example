@@ -36,6 +36,7 @@ var hinclude;
   "use strict";
 
   hinclude = {
+    includeclass: "included",
     classprefix: "include_",
 
     set_content_async: function (element, req) {
@@ -43,7 +44,7 @@ var hinclude;
         if (req.status === 200 || req.status === 304) {
           element.innerHTML = req.responseText;
         }
-        element.className = hinclude.classprefix + req.status;
+        element.className = hinclude.includeclass + " " + hinclude.classprefix + req.status;
       }
     },
 
@@ -65,7 +66,7 @@ var hinclude;
         if (include[1].status === 200 || include[1].status === 304) {
           include[0].innerHTML = include[1].responseText;
         }
-        include[0].className = hinclude.classprefix + include[1].status;
+        include[0].className = hinclude.includeclass + " " + hinclude.classprefix + include[1].status;
       }
     },
 

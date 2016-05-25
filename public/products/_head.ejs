@@ -6,11 +6,11 @@
 </script>
 
 <style>
-  h-include:not(.include_200) {
+  h-include:not(.included) {
     display: none;
   }
 
-  .no-script, h-include(.include_0) {
+  .no-script, h-include.included:not(.include_200):not(.include_304) {
     display: block;
   }
 </style>
