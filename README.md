@@ -2,6 +2,8 @@
 
 This is an example of serving a (very) simple web shop with static files, while transcluding a shopping cart from another server.
 
+There's a [running demo](http://static-web-shop-example.netlify.com/) deployed. It might take a while to spin up some boxes.
+
 The source code for the shopping cart is located here: <https://github.com/gustafnk/static-web-shop-example-shopping-cart>
 
 Techniques used:
