@@ -4,6 +4,7 @@ var IncludesRefresher = {
     function check(element, eventName){
       var parent = element.parentElement;
 
+      // TODO if (HIncludeElement.prototype.isPrototypeOf(parent)) {
       if (parent.localName === 'h-include') {
 
         var attribute = element.getAttribute('data-refresh-on');
